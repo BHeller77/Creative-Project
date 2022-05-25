@@ -1,0 +1,66 @@
+.App {
+  padding:10px;
+}
+
+
+.requestInfo{
+ height:25px;
+ margin:20px;
+}
+
+.loginInfo{
+  height:25px;
+  margin:20px;
+}
+
+.requestInfo input {
+  width: 150px;
+  height: 15px;
+  margin-bottom:15px;
+  margin-right:5px;
+  margin-left: 5px;
+}
+
+.requestInfo button:hover {
+  cursor:pointer;
+}
+
+button {
+  margin-right:5px;
+}
+
+#logout {
+  color:red;
+}
+
+.column {
+  display: inline-block;
+}
+
+.column label, input, button {
+  display: inline;
+  margin-left:auto;
+  margin-right:auto;
+  float: none;
+}
+
+
+.Recipes {
+  margin-top: 25px;
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+}
+
+.recipe {
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+}
+
+.recipe h3 {
+  margin: 20px;
+}
